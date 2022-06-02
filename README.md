@@ -253,7 +253,7 @@ if not os.getenv("IS_TESTING"):
     print("Project ID: ", PROJECT_ID)
 ```
 
-    Project ID:  qwiklabs-gcp-00-8d5bdc7da3e1
+    Project ID:  yourproject-xxxx-id
 
 
 #### Timestamp
@@ -711,13 +711,6 @@ else:
 ```
 
     Creating Endpoint
-    Create Endpoint backing LRO: projects/909205954032/locations/us-central1/endpoints/148785913470648320/operations/6399256148666482688
-    Endpoint created. Resource name: projects/909205954032/locations/us-central1/endpoints/148785913470648320
-    To use this Endpoint in another session:
-    endpoint = aiplatform.Endpoint('projects/909205954032/locations/us-central1/endpoints/148785913470648320')
-    Deploying model to Endpoint : projects/909205954032/locations/us-central1/endpoints/148785913470648320
-    Deploy Endpoint model backing LRO: projects/909205954032/locations/us-central1/endpoints/148785913470648320/operations/2084807705645547520
-    Endpoint model deployed. Resource name: projects/909205954032/locations/us-central1/endpoints/148785913470648320
 
 
 In order to view your deployed endpoint, you can head over to **Vertex AI** ➞ **Endpoints**
